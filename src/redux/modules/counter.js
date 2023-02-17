@@ -61,7 +61,6 @@ const counterSlice = createSlice({
     },
   },
 });
-
 // action creator는 컴포넌트에서 사용하기 위해 export 하고
 export const { addNumber, minusNumber } = counterSlice.actions;
 
