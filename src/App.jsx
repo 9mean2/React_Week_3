@@ -1,7 +1,6 @@
-import { useDispatch } from "react-redux";
-import { useSelector } from "react-redux";
-import "./App.css";
+import { useDispatch, useSelector } from "react-redux";
 import { addNumber, minusNumber } from "./redux/modules/counter";
+
 function App() {
   const number = useSelector((state) => state.counter.number);
   const dispatch = useDispatch();
