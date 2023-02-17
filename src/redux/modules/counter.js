@@ -1,12 +1,7 @@
-// 일반 리덕스 예시 코드
-
 import { createSlice } from "@reduxjs/toolkit";
 
-// Action Value
 // const ADD_NUMBER = "ADD_NUMBER";
 // const MINUS_NUMBER = "MINUS_NUMBER";
-
-// Action Creator
 
 // export const addNumber = (payload) => {
 //   return {
@@ -61,6 +56,7 @@ const counterSlice = createSlice({
     },
   },
 });
+
 // action creator는 컴포넌트에서 사용하기 위해 export 하고
 export const { addNumber, minusNumber } = counterSlice.actions;
 
